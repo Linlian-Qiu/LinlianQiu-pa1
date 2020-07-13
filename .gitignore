@@ -1,0 +1,6 @@
+tignore
+*.o
+*.sw*
+*~
+a.out
+core
