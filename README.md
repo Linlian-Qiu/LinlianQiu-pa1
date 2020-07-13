@@ -3,6 +3,9 @@
 Vim Questions
 You realized you made a spelling error when using one of the constants from the pa1.h file. Instead of DEFAULT_SIZE, you’ve been typing DEFAUL_SIZE (without the T). How would you find and replace all occurrences of DEFAUL_SIZE in your file to be DEFAULT_SIZE?
 
+use the command :%sDEFAUL_SIZE/DEFAULT_SIZE/g
+
+
 
 Git Questions
 Before you merge your current version, what Git command(s) would you use to check if there are no conflicts between your current version and the version last commited?
