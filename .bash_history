@@ -53,3 +53,33 @@ vi testhash.c
 ~/../public/pa1testspamFilter
 ~/../public/pa1testspamFilter -i ~/../public/emails/emails_all
 q
+ssh cs30s120bn@pi-cluster.ucsd.edu
+git init
+git config --global user.name "Linlian Qiu"
+git config --global user.email "lqiu@ucsd.edu"
+git add .
+git commit -m "pa1"
+git status
+git branch
+mkdir ~/pa1
+cd ~/pa1
+ls
+vim .gitignore
+git status
+~/../public/pa1testspamFilter
+~/../public/pa1testspamFilter -i ~/../public/emails/emails_10
+~/../public/pa1testspamFilter -h
+./spamFilter
+~/../public/pa1testspamFilter -i ~/../public/emails/emails_10 < queries >refOutfile
+git init
+git config --global user.name "Linlian-Qiu"
+git config --global user.name "lqiu@ucsd.edu"
+git
+git --version
+git -T lqiu@ucsd.edu
+ls
+git add .
+git commit -m "pa1"
+git status
+vim .gitignore
+git status
